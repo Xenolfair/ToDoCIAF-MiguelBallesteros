@@ -12,13 +12,13 @@ var imgDefault =  {
 function goto(page) {
     switch (page) {
         case "ix":
-            window.location.href = "/Taller Desarrollo - Miguel Ballesteros/index.html";
+            window.location.href = "/index.html";
             break;
         case "hm":
-            window.location.href = "/Taller Desarrollo - Miguel Ballesteros/html/tasks.html";
+            window.location.href = "/html/tasks.html";
             break;
         case 'lg':
-            window.location.href = '/Taller Desarrollo - Miguel Ballesteros/html/login.html'
+            window.location.href = '/html/login.html'
         case "pl":
             window.location.href = ''
         case 'na':
@@ -97,7 +97,7 @@ function registerUser() {
         }).showToast();
 
         setTimeout(()=> {
-            window.location = '/Taller Desarrollo - Miguel Ballesteros/html/tasks.html'
+            window.location = '/html/tasks.html'
         }, 2000);
     }
 }
@@ -126,7 +126,7 @@ function loginUser() {
         }).showToast();
 
         setTimeout(()=> {
-            window.location = '/Taller Desarrollo - Miguel Ballesteros/html/tasks.html'
+            window.location = '/html/tasks.html'
         }, 2000);
 
     } else {
