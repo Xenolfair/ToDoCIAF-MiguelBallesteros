@@ -158,7 +158,7 @@ class TaskView {
 
         // Función para eliminar la tarea visualmente cuando se le da al svg de la X
         deleteSvg.onclick = () => {
-            this.tasksTable.deleteRow(newRow.rowIndex - 1);
+            tasksTable.deleteRow(newRow.rowIndex);
         };
 
         // Agregar el SVG de eliminar al bloque de tarea inicial
