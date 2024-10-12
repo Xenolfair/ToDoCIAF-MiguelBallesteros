@@ -87,7 +87,11 @@ class TaskView {
 
         // Le doy la acción al tocar de tachar texto
         completeSvg.onclick = () => {
-            taskBlock.style.textDecoration = 'line-through';
+            if (taskBlock.style.textDecoration === 'line-through') {
+                taskBlock.style.textDecoration = 'none';
+            } else {
+                taskBlock.style.textDecoration = 'line-through';
+            }
         };
         
         // creo un div para el svg para evitar errores
