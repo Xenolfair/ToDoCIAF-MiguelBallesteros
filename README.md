@@ -1,6 +1,6 @@
 # CIAF - Lista de Tareas 👾
 
-### ✔️ Link del proyecto: https://to-do-ciaf-miguel-ballesteros.vercel.app
+### ✔️ *Link del proyecto:* https://to-do-ciaf-miguel-ballesteros.vercel.app
 
 ## Descripción 🧑‍💻
 
