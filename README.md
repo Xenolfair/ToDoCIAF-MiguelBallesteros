@@ -1,5 +1,7 @@
 # CIAF - Lista de Tareas 👾
 
+## Link del proyecto: https://to-do-ciaf-miguel-ballesteros.vercel.app/index.html
+
 ## Descripción 🧑‍💻
 
 Este es un proyecto de lista de tareas, desarrollado como parte de las clases de *Programación Web* en el contexto de *CIAF*, realizado por **Miguel Ballesteros Gallego**. El objetivo principal de este proyecto es aplicar los conceptos enseñados durante el nivelatorio, como la manipulación del DOM mediante JavaScript,  el uso del **LocalStorage** para almacenar datos de manera persistente, y la implementación de funcionalidades adicionales como el cambio de foto de perfil y la sesión de usuario. Realizado mendiante los ejercicios finales solicitados para finalizar el nivelatorio de JS, esta app ya tenia funcionalidades pero fueron complementadas y agregadas otras con el fin de llevar a otro nivel el proyecto!
