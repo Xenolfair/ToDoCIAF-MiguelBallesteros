@@ -15,13 +15,13 @@ var imgDefault =  {
 function goto(page) {
     switch (page) {
         case "ix":
-            window.location.href = "/Taller Desarrollo - Miguel Ballesteros/index.html"; // Redirige a la página de inicio.
+            window.location.href = "/index.html"; // Redirige a la página de inicio.
             break;
         case "hm":
-            window.location.href = "/Taller Desarrollo - Miguel Ballesteros/html/tasks.html"; // Redirige a la página de tareas.
+            window.location.href = "/html/tasks.html"; // Redirige a la página de tareas.
             break;
         case 'lg':
-            window.location.href = '/Taller Desarrollo - Miguel Ballesteros/html/login.html'; // Redirige a la página de inicio de sesión.
+            window.location.href = '/html/login.html'; // Redirige a la página de inicio de sesión.
             break; // Se añade un break para evitar que siga ejecutando otros casos.
         case "pl":
             window.location.href = ''; // Redirige a una página (aún no definida).
@@ -111,7 +111,7 @@ function registerUser() {
 
         // Redirige a la página de tareas después de 2 segundos.
         setTimeout(() => {
-            window.location = '/Taller Desarrollo - Miguel Ballesteros/html/tasks.html';
+            window.location = '/html/tasks.html';
         }, 2000);
     }
 }
@@ -142,7 +142,7 @@ function loginUser() {
 
         // Redirige a la página de tareas después de 2 segundos.
         setTimeout(() => {
-            window.location = '/Taller Desarrollo - Miguel Ballesteros/html/tasks.html';
+            window.location = '/html/tasks.html';
         }, 2000);
     } else {
         // Mensaje de error si el usuario no existe o la información es incorrecta.
